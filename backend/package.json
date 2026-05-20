@@ -1,0 +1,30 @@
+{
+  "name": "jaybarbers-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Jay Barbers booking application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["barbershop", "booking", "api"],
+  "author": "Fetizanan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "stripe": "^12.16.0",
+    "nodemailer": "^6.9.3",
+    "express-validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  }
+}
